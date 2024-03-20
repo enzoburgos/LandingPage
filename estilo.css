@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.container-header-hero{
+    background-image: url(perro.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+.container-nav-btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+}
+.btn-inscr{
+    text-decoration: none;
+    border: none;
+    margin: 0;
+    padding: 0.3rem 0.9rem;
+    background-color: #dd6c38;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+.color-letras{
+    color: #FFFFFF;
+}
+.hero{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.sub-hero{
+    color:#ebeaea;
+    line-height: 1.2rem;
+    margin-bottom: 2.5rem;
+}
+.btn-register{
+    border: none;
+    background-color: #dd6c38;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: .4rem 1.5rem;
+}
+.btn-consulta{
+    border:1px solid #ebeaea ;
+    background-color: transparent;
+    color: #ebeaea;
+    border-radius: 15px;
+    padding: .4rem 1rem;
+    margin-left: 1rem;
+    margin-bottom: 5rem;
+}
+.container-info-hero{
+    display: flex;
+    border: none;
+    border-radius: 30px;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+.container-info-hero div{
+    padding-top: 1rem;
+    text-align: center;
+}
+.container-info-hero div h1{
+    color: #dd6c38;
+}
